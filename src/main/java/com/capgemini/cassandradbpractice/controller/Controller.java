@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 	
-	@GetMapping("/creatingKeySpace")
+	@GetMapping("/")
 	public ResponseEntity<String> getFromTable(){
 //	utility.creatingKeySpace();
-		return new ResponseEntity<>("hello",HttpStatus.OK);
+		return new ResponseEntity<>("hello Saurav",HttpStatus.OK);
 	}
 }
